@@ -334,14 +334,14 @@
 
 .l-point__figure-list-text {
   font-weight: var(--font-bold);
-  font-size: calc(32/var(--layout-width-base)*100vw);
+  font-size: calc(32 / var(--layout-width-base) * 100vw);
   line-height: var(--leading-snug);
   color: var(--color-dark-gray);
   text-align: center;
 }
 
 .l-point__figure-list-small {
-  font-size: calc(28/var(--layout-width-base)*100vw);
+  font-size: calc(28 / var(--layout-width-base) * 100vw);
 }
 
 .l-point__sms-illust {
@@ -529,11 +529,11 @@
   }
 
   .l-point__figure-list-text {
-    font-size: calc((16*1.5)*var(--rem-ratio));
+    font-size: calc((16 * 1.5) * var(--rem-ratio));
   }
 
   .l-point__figure-list-small {
-    font-size: calc((14*1.5)*var(--rem-ratio));
+    font-size: calc((14 * 1.5) * var(--rem-ratio));
   }
 
   .l-point__contact-list-item-link,
