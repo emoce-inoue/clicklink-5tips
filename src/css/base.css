@@ -11,10 +11,9 @@
   font-family: var(--font-sans);
   font-style: unset;
   font-size: 100%;
-  font-weight: var(--font-bold);
+  font-weight: var(--font-normal);
   font-feature-settings: 'pkna';
   text-align: start;
-  letter-spacing: var(--tracking-normal);
   line-height: var(--leading-normal);
   text-spacing-trim: trim-start;
   word-break: initial;
