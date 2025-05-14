@@ -19,6 +19,8 @@
 
   /* size */
   --layout-width-min: 375;
+  --layout-width-base: 750;
+  --layout-width-inner: 650;
   --layout-width-max: 1440;
   --fluid-ratio-min: calc(1 / var(--layout-width-min) * 100dvi);
   --fluid-ratio-max: calc(1 / var(--layout-width-max) * 100dvi);
@@ -26,16 +28,34 @@
   --aspect-thumbnail: 1.91/1;
   --rounded-xs: 2px;
   --rounded-s: 4px;
+  --rounded-10: 5px;
   --rounded-m: 8px;
   --rounded-sl: 10px;
   --rounded-l: 30px;
+  --rounded-full: 100%;
 
   /* color */
   --color-grayscale-0: #fff;
+  --color-grayscale-500: #333;
   --color-grayscale-1000: #000;
+  --color-redscale-0: #ffccbc;
+  --color-orangescale-0: #ff7c53;
+  --color-yellowscale-0: #fef6d1;
+  --color-bluescale-0: #e8f6fd;
+  --color-bluescale-1000: #052482;
   --background-base: var(--color-grayscale-0);
-  --font-base: var(--color-grayscale-100);
+  --background-point-yellow: color-mix(in srgb, var(--color-yellowscale-0), transparent 48%);
+  --background-point-red: color-mix(in srgb, var(--color-redscale-0), transparent 48%);
+  --background-point-blue: color-mix(in srgb, var(--color-bluescale-0), transparent 54%);
+  --bacgkround-button: color-mix(in srgb, var(--color-orangescale-0), transparent 62%);
+  --background-footer: var(--color-bluescale-0);
+  --font-base: var(--color-grayscale-500);
   --underline-base: color-mix(in srgb, currentcolor, transparent 40%);
+  --color-orange: var(--color-orangescale-0);
+  --color-white: var(--color-grayscale-0);
+  --color-blue: var(--color-bluescale-1000);
+  --color-dark-gray: var(--color-grayscale-500);
+  --button-shadow: 2.5px 3.5px 4.5px 0 rgb(93 97 99 / 100%);
 
   /* z-index */
   --back-z-index: -1;
